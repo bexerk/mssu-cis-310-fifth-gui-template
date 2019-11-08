@@ -62,7 +62,7 @@ namespace FifthGUI
                 outputListBox.Items.Add(s);
             }
         }
-        private void CreateManagersSQLString()
+        private static string CreateManagersSQLString()
         {
             string sql = "Write an SQL query to display the first and last names of all of the managers. The playerID field in the HallOfFame table is a foreign key to the Master table. Recall that the Master table stores the personal information about all of the players.";
             return sql;
